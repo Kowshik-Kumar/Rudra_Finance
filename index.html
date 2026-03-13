@@ -13,9 +13,10 @@
     <style>
       body {
         margin: 0;
-      }
-      body:not(.app-ready) #root {
         visibility: hidden;
+      }
+      body.app-ready {
+        visibility: visible;
       }
       #app-loader {
         position: fixed;
@@ -27,6 +28,7 @@
         justify-content: center;
         background: #ffffff;
         gap: 16px;
+        visibility: visible;
       }
       #app-loader.fade-out {
         animation: loaderFadeOut 0.35s ease forwards;
