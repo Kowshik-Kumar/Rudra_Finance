@@ -9,42 +9,42 @@ import { ArrowRight } from 'lucide-react'
 const ServicesSection = () => {
   const services = [
     {
-      icon: '/tax-icon.png',
+      icon: import.meta.env.BASE_URL + 'tax-icon.png',
       title: 'Income Tax Filing',
       description:
         'Expert assistance with individual and business income tax returns. Maximize your refunds and ensure compliance with latest tax laws.',
       benefits: ['Accurate filing', 'Maximum refunds', 'E-filing support'],
     },
     {
-      icon: '/gst-icon.png',
+      icon: import.meta.env.BASE_URL + 'gst-icon.png',
       title: 'GST Registration & Filing',
       description:
         'Complete GST registration, monthly/quarterly filing, and compliance management for your business. Stay hassle-free with our GST services.',
       benefits: ['Quick registration', 'Timely filing', 'Compliance tracking'],
     },
     {
-      icon: '/business-icon.png',
+      icon: import.meta.env.BASE_URL + 'business-icon.png',
       title: 'Business Registration',
       description:
         'Register your business with ease - from sole proprietorship to private limited company. We handle all paperwork and legal formalities.',
       benefits: ['Fast registration', 'Legal compliance', 'Complete support'],
     },
     {
-      icon: '/bookkeeping-icon.png',
+      icon: import.meta.env.BASE_URL + 'bookkeeping-icon.png',
       title: 'Accounting & Bookkeeping',
       description:
         'Professional accounting and bookkeeping services to keep your financial records organized and compliant. Focus on growth while we manage the numbers.',
       benefits: ['Accurate records', 'Financial clarity', 'Regular reports'],
     },
     {
-      icon: '/tax-consulting-icon.png',
+      icon: import.meta.env.BASE_URL + 'tax-consulting-icon.png',
       title: 'Tax Planning & Consultation',
       description:
         'Strategic tax planning to minimize your tax liability legally. Get expert advice on tax-saving investments and financial planning.',
       benefits: ['Tax optimization', 'Expert guidance', 'Financial planning'],
     },
     {
-      icon: '/compliance-icon.png',
+      icon: import.meta.env.BASE_URL + 'compliance-icon.png',
       title: 'Compliance Services',
       description:
         'Ensure your business meets all regulatory and compliance requirements. Avoid penalties with our comprehensive compliance management.',

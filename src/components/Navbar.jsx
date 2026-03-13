@@ -60,7 +60,7 @@ const Navbar = () => {
           {/* Logo and Brand Name */}
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="/logo.png" 
+              src={import.meta.env.BASE_URL + "logo.png"} 
               alt="Rudra Tax & Business Logo" 
               className="h-12 w-auto object-contain"
             />

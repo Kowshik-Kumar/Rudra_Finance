@@ -9,7 +9,7 @@ import { ArrowRight, Award, Users, TrendingUp } from 'lucide-react'
 const HeroSection = () => {
   return (
     <section className="relative text-white section-padding pt-32 min-h-screen flex items-center" style={{ 
-      backgroundImage: 'url(/hero-bg.png)', 
+      backgroundImage: `url(${import.meta.env.BASE_URL}hero-bg.png)`, 
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
       backgroundColor: '#1a2942'

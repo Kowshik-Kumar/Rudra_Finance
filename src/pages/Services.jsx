@@ -16,7 +16,7 @@ import {
 const Services = () => {
   const services = [
     {
-      icon: '/tax-icon.png',
+      icon: import.meta.env.BASE_URL + 'tax-icon.png',
       title: 'Income Tax Filing',
       description:
         'Expert assistance with individual and business income tax returns. We ensure accurate filing, maximize your refunds, and help you stay compliant with the latest tax laws.',
@@ -31,7 +31,7 @@ const Services = () => {
       pricing: 'Starting from ₹500',
     },
     {
-      icon: '/gst-icon.png',
+      icon: import.meta.env.BASE_URL + 'gst-icon.png',
       title: 'GST Registration & Filing',
       description:
         'Complete GST registration, monthly/quarterly filing, and compliance management. Stay hassle-free with our comprehensive GST services tailored to your business needs.',
@@ -46,7 +46,7 @@ const Services = () => {
       pricing: 'Starting from ₹1,000/month',
     },
     {
-      icon: '/business-icon.png',
+      icon: import.meta.env.BASE_URL + 'business-icon.png',
       title: 'Business Registration',
       description:
         'Register your business with ease - from sole proprietorship to private limited company. We handle all paperwork and legal formalities for a smooth registration process.',
@@ -61,7 +61,7 @@ const Services = () => {
       pricing: 'Starting from ₹2,000',
     },
     {
-      icon: '/bookkeeping-icon.png',
+      icon: import.meta.env.BASE_URL + 'bookkeeping-icon.png',
       title: 'Accounting & Bookkeeping',
       description:
         'Professional accounting and bookkeeping services to keep your financial records organized and compliant. Focus on growing your business while we manage the numbers.',
@@ -76,7 +76,7 @@ const Services = () => {
       pricing: 'Starting from ₹3,000/month',
     },
     {
-      icon: '/tax-consulting-icon.png',
+      icon: import.meta.env.BASE_URL + 'tax-consulting-icon.png',
       title: 'Tax Planning & Consultation',
       description:
         'Strategic tax planning to legally minimize your tax liability. Get expert advice on tax-saving investments, deductions, and financial planning for long-term success.',
@@ -91,7 +91,7 @@ const Services = () => {
       pricing: 'Starting from ₹5,000',
     },
     {
-      icon: '/compliance-icon.png',
+      icon: import.meta.env.BASE_URL + 'compliance-icon.png',
       title: 'Compliance Services',
       description:
         'Ensure your business meets all regulatory and statutory compliance requirements. Avoid penalties and legal issues with our comprehensive compliance management.',
