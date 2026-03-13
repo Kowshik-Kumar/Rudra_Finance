@@ -10,7 +10,7 @@ const Contact = () => {
   const contactInfo = {
     address:
       'SHIV MANDIR, NUTAN PALLY, E1/11C, near ISHANESHWAR, Bhiringi, Benachity, Durgapur, West Bengal 713213, India',
-    phone: '+91 98328 33434',
+    phone: '+91 XXXXX XXXXX',
     email: 'rudratax.stay7@gmail.com',
     hours: 'Open Daily - Closes at 10 PM',
   }
