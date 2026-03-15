@@ -14,6 +14,14 @@ import {
  * Detailed listing of all services offered
  */
 const Services = () => {
+  const epfEsiServices = [
+    'EPF & ESI Registration',
+    'EPF & ESI Monthly Return Filing',
+    'Salary Sheet Preparation',
+    'EPF Withdrawal Assistance',
+    'EPF & ESI Compliance Tracking',
+  ]
+
   const services = [
     {
       icon: import.meta.env.BASE_URL + 'tax-icon.png',
@@ -182,6 +190,39 @@ const Services = () => {
                 </div>
               )
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* EPF & ESI Compliance Services */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <h2 className="heading-md text-primary mb-4">
+              EPF & ESI Compliance Services
+            </h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">
+              End-to-end statutory compliance support for employers with employees,
+              handled by experienced professionals for accurate filings and timely
+              tracking.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {epfEsiServices.map((item, index) => (
+              <div
+                key={index}
+                className="card hover:scale-[1.02] transition-transform duration-300"
+              >
+                <div className="flex items-start space-x-3">
+                  <CheckCircle
+                    className="text-secondary flex-shrink-0 mt-1"
+                    size={20}
+                  />
+                  <h3 className="text-lg font-semibold text-primary">{item}</h3>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -50,6 +50,15 @@ const ServicesSection = () => {
         'Ensure your business meets all regulatory and compliance requirements. Avoid penalties with our comprehensive compliance management.',
       benefits: ['Full compliance', 'Risk mitigation', 'Peace of mind'],
     },
+    {
+      icon: import.meta.env.BASE_URL + 'compliance-icon.png',
+      title: 'EPF & ESI Compliance Services',
+      description:
+        'We provide complete EPF and ESI compliance support including registration, monthly return filing, payroll salary sheet preparation, EPF withdrawal assistance, and statutory compliance tracking for businesses.',
+      benefits: ['Registration support', 'Monthly filings', 'Compliance tracking'],
+      ctaLabel: 'Learn More',
+      ctaLink: '/services',
+    },
   ]
 
   return (
@@ -99,10 +108,10 @@ const ServicesSection = () => {
 
                 {/* Learn More Link */}
                 <Link
-                  to="/contact"
+                  to={service.ctaLink || '/contact'}
                   className="inline-flex items-center text-primary font-semibold hover:text-secondary transition-colors duration-200"
                 >
-                  Get Started
+                  {service.ctaLabel || 'Get Started'}
                   <ArrowRight size={16} className="ml-1" />
                 </Link>
               </div>
